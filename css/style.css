@@ -1,0 +1,70 @@
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --primary-bg-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+
+/*цвет основного текста
+SLATE #434455*/
+/*вторичный цвет  текста 
+NAVY BLUE #2E2F42*/
+/*цвет белый #FFFFFF*/
+/* акцент и лого  #4D5AE5*/
+
+.logo {
+  color: var(--accent-color);
+}
+.logo:hover {
+  color: aqua;
+}
+
+/*site nav*/
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: aqua;
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/*Hero*/
+.hero-title {
+  color: red;
+}
+
+/*Section*/
+.section-title {
+  color: var(--title-text-color);
+}
+
+/*Features*/
+.features-list .title {
+  color: var(--title-text-color);
+}
+
+/*button*/
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-bg-color);
+}
+.button.primary {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-bg-color);
+}
