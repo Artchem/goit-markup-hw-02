@@ -2,7 +2,7 @@
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
-  --primary-bg-color: #ffffff;
+  --primary-bg-color: #e5e5e5;
   --pressed-state: #404bbf;
   --btn-bg-portfolio-color: #f4f4fd;
   --dark-bg: #2e2f42;
@@ -45,7 +45,7 @@ NAVY BLUE #2E2F42*/
   color: var(--title-text-color);
 }
 .logo-footer {
-  color: var(--btn-bg-portfolio-color);
+  color: var(--cloud-bg);
 }
 
 /*site nav*/
@@ -122,7 +122,7 @@ NAVY BLUE #2E2F42*/
   color: var(--title-text-color);
 }
 .team-item {
-  background-color: var(--primary-bg-color);
+  background-color: var(--button-text-primary);
 }
 .team-text {
   text-align: center;
@@ -148,12 +148,18 @@ NAVY BLUE #2E2F42*/
 
 /*portfolio*/
 .btn-filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
   color: var(--accent-color);
-  background-color: var(--btn-bg-portfolio-color);
+  background-color: var(--cloud-bg);
 }
-.btn-active {
-  color: var(--primary-bg-color);
-  background-color: var(--btn-active-bg-portf-color);
+.btn-filter.active {
+  color: var(--button-text-primary);
+  background-color: var(--pressed-state);
 }
 
 /*Footer*/
@@ -164,4 +170,18 @@ NAVY BLUE #2E2F42*/
   font-weight: 400;
   letter-spacing: 0.02em;
   color: var(--cloud-bg);
+}
+.portfolio-list {
+  background-color: var(--button-text-primary);
+}
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.portfolio-text {
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
