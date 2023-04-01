@@ -65,8 +65,10 @@ NAVY BLUE #2E2F42*/
   color: var(--pressed-state);
 }
 /*address section*/
-.address-link {
+.nav-address {
   font-style: normal;
+}
+.address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
